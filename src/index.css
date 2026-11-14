@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #FAF6F0;
+  --bg-surface: #EFE5D8;
+  --bg-elevated: #FFFDF9;
+  --border-hairline: #D8C8B4;
+  --text-primary: #2D211B;
+  --text-muted: #6E5A4F;
+  --accent-berry: #C94A5A;
+  --accent-berry-hover: #B23A4A;
+  --accent-gold: #C68B3C;
+  --font-display: "Fraunces", "Noto Sans TC", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Noto Sans TC", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.touch-game-surface {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
