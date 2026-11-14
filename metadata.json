@@ -2,5 +2,7 @@
   "name": "法式甜點塔疊疊樂",
   "description": "溫暖手繪法式甜點屋風格的 2D 蛋糕疊疊樂手機遊戲，透過擺鐘精準落放、觸發 Perfect 連擊與裁切物理堆疊出夢幻甜點塔。",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
